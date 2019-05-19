@@ -218,6 +218,15 @@ button{
   font-size: 16px;
 }
 
+.downloadButton{
+  text-decoration: none;
+  color: white;
+}
+
+a{
+  color: black;
+}
+
 .photoDescription{
   font-size: 34px;
   text-align: center;
@@ -266,6 +275,7 @@ button{
   flex-direction: row;
   justify-content: space-around;
   align-items:center;
+  margin-top: 50px;
 }
 
 .service3{
@@ -273,6 +283,8 @@ button{
   flex-direction: row;
   justify-content: space-around;
   align-items:center;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .s1Desc{
@@ -375,8 +387,83 @@ button{
   height: 150px;
   width: 150px;
   background-color: black;
+}
+
+.audioPlayer{
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.youtubePlayer{
+  padding-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.formContainer{
+  display: flex;
+  justify-content: center;
+  max-width: 1500px;
+  border-radius: 5px;
+  margin: 0 auto;
+  font-size: 20px;
+  padding-bottom: 75px;
+  width: 100%;
 
 }
+
+
+#firstName, #lastName, select, #message, #email, #checkbox{
+  font-size: 20px;
+  width: 100%;
+  border: solid 1px black;
+  padding: 10px;
+}
+
+input, textarea, select{
+  padding: 5px;
+  font-size: 15px;
+  border: solid 1px black;
+}
+
+button{
+  padding: 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  width: 200px;
+  margin-top: 20px;
+}
+
+label{
+  width: 50%;
+  margin-right: 20px;
+}
+
+
+.formGroup{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.selection{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+}
+
+.contactNow{
+  font-size: 36px;
+  font-weight: 600;
+  padding: 30px;
+  text-align: center;
+}
+
 
 
 /* Extra Large devices (large desktops, 1200px and down) */
